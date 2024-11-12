@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://localhost:5000',
+    baseURL: 'https://ia04-jwtauthentication-backend.onrender.com',
 });
 
 api.interceptors.request.use(
